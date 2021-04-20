@@ -1,11 +1,3 @@
-/*
-Crie também os métodos (comportamentos) sendo eles, dormir, cagar, comer, estudar, viver, sobreviver e trabalhar.
-Nesses últimos casos, basta colocar um system.out.println mantendo assim a coesão da classe.
-
-Após isso, crie a classe principal (Main), crie 2 objetos do tipo pessoa,o primeiro instanciado por meio do construtor default
-e o segundo com o outro construtor Fique à vontade para usar os métodos criados com as instâncias criadas, mas não precisa utilizar todos.
-*/
-
 import java.io.*;
 import java.util.*;
 
