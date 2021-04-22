@@ -12,8 +12,9 @@ public class ExprAritmetica implements Expression {
   public void setExpression(String expr) { this.expression = expr; }
   public String getExpression() { return this.expression; }
 
+  @Override
   public String toString(){
-    return this.getExpression();
+    return "ExprAritmetica " + this.hashCode() + ": " + this.getExpression();
   }
 
   public String avaliar(){
