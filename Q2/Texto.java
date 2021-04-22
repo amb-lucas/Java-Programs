@@ -6,6 +6,7 @@ public class Texto {
 
   public Texto(String text) { this.text = text; }
 
+  @Override
   public String toString() {
     return this.text;
   }
