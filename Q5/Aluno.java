@@ -11,6 +11,12 @@ public class Aluno extends Pessoa {
     this.curso = curso;
   }
 
+  @Override
+  public void setNome(String nome) { this.nome = nome; }
+
+  @Override
+  public void setCpf(String cpf) { this.cpf = cpf; }
+
   public String getMatricula() { return this.matricula; }
   public void setMatricula(String matricula) { this.matricula = matricula; }
 

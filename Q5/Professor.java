@@ -11,6 +11,12 @@ public class Professor extends Pessoa {
     this.area = area;
   }
 
+  @Override
+  public void setNome(String nome) { this.nome = nome; }
+
+  @Override
+  public void setCpf(String cpf) { this.cpf = cpf; }
+
   public String getFormacao() { return this.formacao; }
   public void setFormacao(String formacao) { this.formacao = formacao; }
 
