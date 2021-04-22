@@ -45,7 +45,7 @@ public class Texto {
 
     int substrLength = fromStr.length();
     int textLength = this.text.length();
-    for(int i=0; i+substrLength < textLength; i++){
+    for(int i=0; i+substrLength <= textLength; i++){
       if(this.text.substring(i, i+substrLength).equals(fromStr)){
         newText += toStr;
         i += substrLength-1;
